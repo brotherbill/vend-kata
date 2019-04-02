@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendApp", "VendApp\VendApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendAppTest", "VendAppTest\VendAppTest.csproj", "{ABC69AA1-ABDE-4D63-B149-19A82C8CC846}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40E95BEA-4677-46BC-8D10-F797E0178501}"
+	ProjectSection(SolutionItems) = preProject
+		Vend Documentation.docx = Vend Documentation.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
