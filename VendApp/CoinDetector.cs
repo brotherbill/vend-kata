@@ -11,7 +11,8 @@ namespace VendApp
     /// <returns>coin value or zero for rejected coins</returns>
     public static int CoinValue(float weight, float diameter)
     {
-      return 5;
+      SampleCoin coin = new SampleCoin(weight, diameter);
+      return coin.IsValid ? coin.CoinValue : 0;
     }
   }
 }
