@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stopwatch", "Timer\Stopwatch.csproj", "{DD1A577E-43C8-4704-B64A-32FD7FDAB7E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingWinForms", "VendingWinForms\VendingWinForms.csproj", "{659BAE2D-8189-4791-B529-39E9F3320D83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{DD1A577E-43C8-4704-B64A-32FD7FDAB7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD1A577E-43C8-4704-B64A-32FD7FDAB7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD1A577E-43C8-4704-B64A-32FD7FDAB7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659BAE2D-8189-4791-B529-39E9F3320D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659BAE2D-8189-4791-B529-39E9F3320D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659BAE2D-8189-4791-B529-39E9F3320D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659BAE2D-8189-4791-B529-39E9F3320D83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
