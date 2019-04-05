@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Timer\Stopwatch.csproj" />
     <ProjectReference Include="..\VendApp\VendApp.csproj" />
   </ItemGroup>
 
