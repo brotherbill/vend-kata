@@ -2,19 +2,39 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Models;
 
 namespace VendingWinForms
 {
     public partial class Vendo : Form
     {
+
+        private VendingMachine _vendingMachine;
+
         public Vendo()
         {
             InitializeComponent();
+
+            // HACK: provide access to UI in VendingMachine
+            var vendingMachineDto = new VendingMachineDto
+            {
+                Display = lblDisplay,
+            };
+            _vendingMachine = new VendingMachine(vendingMachineDto);
         }
+
+        private void btnInsertCoin_Click(object sender, EventArgs e)
+        {
+            float weighGrams = float.Parse(numWeightGrams.Text);
+            float diameterMm = float.Parse(numDiameterMm.Text);
+            _vendingMachine.InsertCoin(weighGrams, diameterMm);
+        }
+
     }
 }
